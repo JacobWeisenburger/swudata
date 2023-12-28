@@ -1,0 +1,153 @@
+{
+    "name": "Spark of Rebellion",
+    "abbreviation": "SOR",
+    "cards": [
+        {
+            "number": 1,
+            "name": "Director Krennic",
+            "title": "Aspiring to Authority",
+            "type": "Leader",
+            "power": 2,
+            "hp": 7,
+            "cost": 5,
+            "arena": "Ground",
+            "aspects": [
+                "Vigilance",
+                "Villainy"
+            ],
+            "traits": [
+                "Imperial",
+                "Official"
+            ],
+            "abilities": [
+                {
+                    "type": "Constant",
+                    "side": "Leader",
+                    "text": "Each friendly damaged unit gets +1/0."
+                },
+                {
+                    "type": "Epic Action",
+                    "side": "Leader",
+                    "text": "If you control 5 or more resources, deploy this leader."
+                },
+                {
+                    "type": "Keyword",
+                    "side": "Unit",
+                    "id": "Restore",
+                    "value": 2,
+                    "text": "Restore 2 (When this unit attacks, heal 2 damage from your base.)"
+                },
+                {
+                    "type": "Constant",
+                    "side": "Unit",
+                    "text": "Each friendly damaged unit gets +1/0."
+                }
+            ],
+            "artist": "Ario Murti",
+            "spoiler": {
+                "date": "2023-07-07",
+                "url": "https://twitter.com/UnlimitedFFG/status/1677331851038322690"
+            },
+            "rarity": "Common",
+            "unique": true,
+            "imageUrls": [
+                "https://ffg-prod-uploads.s3.amazonaws.com/SWH_01_001_Director_Krennic_Leader_62eaa20dc2.png",
+                "https://ffg-prod-uploads.s3.amazonaws.com/SWH_01_001_Director_Krennic_Leader_Unit_e2c6231b35.png"
+            ]
+        },
+        {
+            "number": 5,
+            "name": "Luke Skywalker",
+            "title": "Faithful Friend",
+            "type": "Leader",
+            "power": 4,
+            "hp": 7,
+            "cost": 6,
+            "arena": "Ground",
+            "aspects": [
+                "Vigilance",
+                "Heroism"
+            ],
+            "traits": [
+                "Force",
+                "Rebel"
+            ],
+            "abilities": [
+                {
+                    "type": "Action",
+                    "side": "Leader",
+                    "costs": [
+                        {
+                            "type": "Resource",
+                            "value": 1
+                        },
+                        {
+                            "type": "Exhaust"
+                        }
+                    ],
+                    "text": "Action [{Icon:Resource 1},{Icon:Exhaust}]: Give a Shield token to a {Icon:Heroism} Aspect unit you played this phase."
+                },
+                {
+                    "type": "Epic Action",
+                    "side": "Leader",
+                    "text": "If you control 6 or more resources, deploy this leader. (Flip him, ready him, and move him to the ground arena.)"
+                },
+                {
+                    "type": "Triggered",
+                    "side": "Unit",
+                    "trigger": "On Attack",
+                    "text": "On Attack: You may give another unit a Shield token."
+                }
+            ],
+            "artist": "Borja Pindado",
+            "spoiler": {
+                "date": "2023-05-16",
+                "url": "https://starwarsunlimited.com/articles/star-wars-unlimited-first-look"
+            },
+            "rarity": "Starter",
+            "unique": true,
+            "imageUrls": [
+                "https://ffg-prod-uploads.s3.amazonaws.com/SWH_01_005_Luke_Skywalker_Leader_ce133fc923.png",
+                "https://ffg-prod-uploads.s3.amazonaws.com/SWH_01_005_Luke_Skywalker_Leader_Unit_0dcb77795c.png"
+            ]
+        },
+        {
+            "number": 135,
+            "name": "Emperor Palpatine",
+            "title": "Master of the Dark Side",
+            "type": "Unit",
+            "power": 6,
+            "hp": 6,
+            "cost": 8,
+            "arena": "Ground",
+            "aspects": [
+                "Aggression",
+                "Villainy"
+            ],
+            "traits": [
+                "Force",
+                "Imperial",
+                "Sith",
+                "Official"
+            ],
+            "abilities": [
+                {
+                    "type": "Keyword",
+                    "id": "Overwhelm",
+                    "text": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)"
+                },
+                {
+                    "type": "Triggered",
+                    "trigger": "When Played",
+                    "text": "When Played: Deal 6 damage divided as you choose among enemy units."
+                }
+            ],
+            "artist": "Didier Nguyen",
+            "spoiler": {
+                "date": "2023-08-07"
+            },
+            "rarity": "Rare",
+            "unique": true
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "swudata",
+  "module": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "clear && bun run main.ts",
+    "dev": "clear && bun run --watch main.ts",
+    "cmd": "cmd.exe /c start cmd /k wsl --cd ~/software/swudata/dev"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
+}
