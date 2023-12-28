@@ -1,4 +1,4 @@
-# Star Wars Unlimited Card Database
+# Star Wars Unlimited Database
 
 Please feel free to use this database for any purpose you like.
 
